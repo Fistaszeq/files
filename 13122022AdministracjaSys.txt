@@ -1,0 +1,48 @@
+Uzyskiwanie informacji o systemie 
+
+
+
+sudo apt-get install smartmontools
+
+(GSmartControl)
+
+sudo smartctl -i/dev/sda
+
+
+sudo smartctl -d auto -A /dev/sda
+
+
+
+comend system:
+
+free
+
+free -m
+
+top
+
+sudo apt htop
+
+htop // diagnostyka systemu oraz hardwaru
+
+cat /proc/cpuinfo
+
+cat proc/meminfo
+
+lscpu
+
+sudo apt install hardinfo    /   diagnostyka systemu chodzi o dyski    
+
+dmidecode -q
+
+sudo smartctl -i /dev/sda
+
+gsmartcontrol
+
+\
+
+sudo lshw // idetyfikacja pod zespołów pc
+
+sudo uname -a / inf o jądrze systemu 
+
+
